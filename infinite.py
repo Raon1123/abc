@@ -1,9 +1,6 @@
 import time
 
 cnt = 0
-while True:
+for cnt in range(10):
     print(cnt, "Infinite Loop~")
     time.sleep(1)
-    cnt += 1
-
-
